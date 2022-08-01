@@ -1,0 +1,75 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            const obj = new Object();
+            console.log(obj);
+            obj.id = 1;
+            obj.name = "Eng Dave";
+            obj.gender = "Male";
+            console.log(obj);
+            console.log(Oobj.name)
+
+            
+            // const obj = {"id":1, "name":"david", "gender":"Male"}  NB:Objects are key value pairs.
+
+
+            //Creating an array
+            /*const my_array = [];
+            console.log(my_array);
+            my_array.push(1);
+            my_array.push(5)
+            console.log(my_array);
+            */
+
+            //Using confirmation box
+            /*if(confirm("You sure?")){
+                console.log("Deleted")
+            } esle {
+                console.log("User cancelled")
+            }
+            
+            //Concatitnation of text and numbers
+            function add(a,b){
+                sum = a + b
+                return 'The sum of $(a)' and $(b) is $(sum);
+            }
+            console.log(add(100,5));
+            */
+
+            //if stats
+            const number1 = 100;
+            const number2 = 50;
+            if(number1>number2){
+                console.log("number1 < number2");
+            } else if (number1>number2){
+                console.log("number1 > number2");
+            } else if (number1 == number2){
+                console.log("number1 = number2");
+            } else{
+                console.log("number2 < number1")
+                
+            }
+
+            //New window
+            let mynew = window.open("", width = 100, height = 100);
+            mynew.document.writein("<h1>Yoo</h1>")
+
+            //Timer
+            let count = 0
+            function counter(){
+                console.log(count);
+                count += 1
+            }
+
+            function masg(){
+                alert("This is executed after 10 seconds");
+            }
+            setInterval(counter,1000);
+            setTimeout(mag,10000)
+        </script>
+    </body>
+
+</html>

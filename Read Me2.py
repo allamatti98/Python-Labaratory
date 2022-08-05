@@ -1,0 +1,1 @@
+#This directory was just created while testing Path class ie path3 = Path("Maverick"), path3.mkdir()

@@ -10,7 +10,7 @@ while True:
         break
     else:
         print("Type 'Yes' or 'No'")
-        break
+        
 
 
 

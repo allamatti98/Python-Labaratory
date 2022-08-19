@@ -1,4 +1,10 @@
-
+name = input("What is your name?")
+print("Hello " + name + ", Welcome to Kampala Hospital.")
+age = input("How pld are you?")
+yob = int(2022 - age)
+print(f'My brother was also born in {yob}')
+while True:
+    
 
 
 

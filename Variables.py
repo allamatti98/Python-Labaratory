@@ -10,3 +10,7 @@ while True:
         break
     else:
         print("Type 'Yes' or 'No'")
+
+nem = input("What is your name? ")
+colour= input("What is your favourite color? ")
+print(f' {nem} likes {colour}')

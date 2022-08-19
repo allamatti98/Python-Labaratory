@@ -1,3 +1,26 @@
+name = input("What is your name?")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''
 name = input("What is your name?: ")
 print("Hello " + name + ", welcome to Kingsman Hospital.")
 age = input("How old are you?: ")
@@ -10,3 +33,4 @@ while True:
         break
     else:
         print(f"The answer is Yes or No {name}")
+'''

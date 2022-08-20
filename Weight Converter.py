@@ -1,4 +1,5 @@
 weight = input("What is your weight? ")
+metrics = input("Is it in Kilograms (Kg) or Pounds(Lbs)")
 
 
 

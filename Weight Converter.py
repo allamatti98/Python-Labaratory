@@ -1,3 +1,27 @@
+weight = input("What is your weight? ")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
 while True:
     weight = float(input("Kindly enter your weight: "))
     unit = input("Is it in Kilograms (Kgs) or Pounds(Lbs)?: ")
@@ -11,7 +35,7 @@ while True:
         break
     else:
         print("Type 'Kgs' or 'Lbs'")
-
+"""
 
 
 

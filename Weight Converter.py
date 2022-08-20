@@ -1,6 +1,10 @@
 weight = input("What is your weight? ")
 metrics = input("Is it in Kilograms (Kg) or Pounds(Lbs)")
-
+if metrics.upper() == "KG":
+    pounds = float(weight) /1.6
+    print(f'Your weight in pounds is {pounds}')
+elif metrics.lower() == "lbs":
+    
 
 
 

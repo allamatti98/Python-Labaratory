@@ -1,5 +1,8 @@
 output = ""
-spaces = " " * 4
-stars = "*" * 3
-output = spaces + stars
-print(output)
+s = 8
+a = 0
+while a <= 8:
+    spaces = " " * s
+    stars = "*" * a
+    output = spaces + stars
+    print(output)

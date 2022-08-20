@@ -7,6 +7,7 @@ biodata = {
 print(biodata["email"])
 
 dic1 = {
+    "0": "Zero",
     "1": "One",
     "2": "Two",
     "3": "Three",
@@ -15,15 +16,13 @@ dic1 = {
     "6": "Six",
     "7": "Seven",
     "8": "Eight",
-    "9": "Nine"
+    "9": "Nine",
 }
-contact = input("Kindly enter your phone number? ")
 output = ""
+contact = input("Kindly input your contact. :")
 for no in contact:
-    output += (dic1.get(no)) + " "
+    output += dic1.get(no) + " "
 print(output)
-
-
 
 
 

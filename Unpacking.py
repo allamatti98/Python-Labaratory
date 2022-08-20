@@ -13,3 +13,6 @@ List =[6,7,8,9,10]
 a,b,c,d,e = List
 print(x)
 print(d)
+appointments = (1,3,4,6,8,9)
+i,j,k,l,m,n = appointments
+print(m)

@@ -1,4 +1,16 @@
 Motto = "You Only Live Once"
+print(len(Motto))
+no_cap = Motto[:]
+print(Motto)
+print(Motto[1:-1])
+print(Motto.upper())
+print(Motto.lower())
+print(Motto.replace("You", "We"))
+print(Motto.split())
+print(Motto.find('n'))
+print(Motto.title())
+print(Motto)
+"""
 print(Motto)
 print(Motto[1])
 print(Motto.upper())
@@ -10,7 +22,6 @@ print(Motto[:])
 facts = Motto[:]
 print(facts)
 print(len(facts))
-notes = ("""
 Motto = "You Only Live Once"
 print(Motto.upper())
 print(Motto.find('O'))
@@ -37,6 +48,5 @@ print(Facts.replace('best','best no cap'))
 Facts.replace('best', 'best I am not even capping')
 print(Facts)
 print('the' in Facts)
-
 print(Motto.find(''))
-""")
+"""

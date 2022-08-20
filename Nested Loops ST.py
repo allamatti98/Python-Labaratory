@@ -1,3 +1,27 @@
+for x in range(11):
+    for y in range(11):
+        print(f"{(x,y)}")
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
 from Speed.Mathematics import find_max_number
 
 
@@ -18,3 +42,4 @@ for noz in numbers:
 print(tt)
 
 find_max_number(numbers)
+"""

@@ -1,4 +1,4 @@
-def star_tree()
+def star_tree():
     import time
     output = ""
     s = 8
@@ -13,5 +13,4 @@ def star_tree()
     for i in range(4):
         print (" "*7 + "*"*2)
         time.sleep(1)
-
 star_tree()

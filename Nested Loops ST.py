@@ -3,8 +3,12 @@ for x in range(11):
         print(f"{(x,y)}")
     
 
-
-
+no = [5,2,5,2,2]
+for i in no:
+    output = ""
+    for j in range(i):
+        output += "X"
+    print(output) 
 
 
 

@@ -1,3 +1,4 @@
+'''
 biodata = {
     "name": "Alex Hunter",
     "age": 19,
@@ -19,11 +20,9 @@ dic1 = {
     "9": "Nine",
 }
 output = ""
-contact = input("Kindly input your contact. :")
+contact = input("Kindly enter your contact: ")
 for no in contact:
-    output += dic1.get(no) + " "
-print(output)
-
+    output += dic1.get(no,"!")
 dic2 = {
     "cool": "dope",
     "understand": "feel",
@@ -35,3 +34,4 @@ t2 = text.split()
 for key in t2:
     output2 += dic2.get(key, key) + " "
 print(output2)
+'''

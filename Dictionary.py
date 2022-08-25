@@ -23,8 +23,17 @@ for no in contact:
     output += numbers.get(no, "!") + " "
 print(output)
 
-
-
+newwords = {
+    "Hi": "Wagwan",
+    "good": "kris",
+    "thanks": "mad"
+}
+text = input("Enter input: ")
+output = ""
+list = text.split()
+for words in list:
+    output += newwords.get(words, words) + " "
+print(output)
 
 
 

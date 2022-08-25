@@ -1,3 +1,47 @@
+biodata = {
+    "name": "John Doe",
+    "age": 23,
+    "married": True
+}
+print(biodata["name"])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 '''
 biodata = {
     "name": "Alex Hunter",

@@ -6,8 +6,10 @@ for i in range (3):
 
 for i in range (4):
     print(random.randint(90,100))
-    
 
+for i in range (5):
+    names = ["IronMan", "Thor", "Hulk", "WinterSoldier"]
+    print(random.choice(names))
 
 
 

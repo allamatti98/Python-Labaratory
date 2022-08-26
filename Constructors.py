@@ -47,8 +47,8 @@ class Cars:
         self.bclass = bclass
         self.color = color
     
-    def explain(color, model):
+    def explain(self,color, model):
         print(f"This is a {color} benz {model}")
 
 c1 = Cars("dd","blue")
-c1.explain("bclass")
+c1.explain("blue",1997)

@@ -13,3 +13,8 @@ def greet_user(name):
     print("Hello " + name)
 
 greet_user("Peter")
+
+def cube(number):
+    return number ** 3
+
+print(cube(2))

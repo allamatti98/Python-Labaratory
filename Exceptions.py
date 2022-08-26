@@ -9,8 +9,8 @@ try:
     print("Good Good!!!")
 except ValueError:
     print("Must be a value")
-
-
+except ZeroDivisionError:
+    print("Can't be a zero")
 
 
 

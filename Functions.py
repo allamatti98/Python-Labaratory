@@ -18,3 +18,9 @@ def cube(number):
     return number ** 3
 
 print(cube(2))
+
+from UtilsModules import big_word,max_number
+words = ["BurnaBoy","Ruger","Fireboy"]
+big_word(words)
+numbers= [1,5,9,10,15]
+max_number(numbers)

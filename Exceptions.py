@@ -8,7 +8,7 @@ try:
     bio()
     print("Good Good!!!")
 except ValueError:
-    "Must be a value"
+    print("Must be a value")
 
 
 

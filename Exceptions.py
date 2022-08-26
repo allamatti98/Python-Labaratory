@@ -6,13 +6,9 @@ def bio():
     birth = 2022 - age
 try:
     bio()
-    print("All is well")
+    print("Good Good!!!")
 except ValueError:
-    print("Must be a number")
-
-
-
-
+    "Must be a value"
 
 
 

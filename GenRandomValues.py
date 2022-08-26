@@ -1,7 +1,8 @@
 #Generate random values between 0 and 1, then values between any range you specify.
 #Then pick a string at random
 import random
-
+for i in range (3):
+    print(random.random())
 
 
 

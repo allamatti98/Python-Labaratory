@@ -52,3 +52,14 @@ class Cars:
 
 c1 = Cars("dd","blue")
 c1.explain("blue",1997)
+
+
+class Person:
+    def __init__ (self,name):
+        self.name = name
+    
+    def talk(self,name):
+        print(f"Hello {name}")
+
+p1 = Person("Peter")
+p1.talk("Peter")

@@ -2,11 +2,8 @@ import random
 def dice_roll():
     x = random.randint(1,6)
     y = random.randint(1,6)
-    print(f"({x},{y})")
-dice_roll()
-
-
-
+    return (f"({x},{y})")
+print(dice_roll())
 
 
 

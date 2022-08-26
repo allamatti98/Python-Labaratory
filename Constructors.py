@@ -21,3 +21,10 @@ class Person:
 ps1 = Person("Peter Parker")
 ps1.talk()
 print(ps1.name)
+
+class Christian:
+    def __init__ (self, city):
+        self.city = city
+        
+Ch1 = Christian("Kampala")
+print(Ch1.city)

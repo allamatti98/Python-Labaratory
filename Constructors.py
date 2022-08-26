@@ -40,3 +40,15 @@ class Human:
 h1 = Human("Peter",23)
 print(h1.name)
 print(h1.age)
+
+
+class Cars:
+    def __init__ (self,bclass,color):
+        self.bclass = bclass
+        self.color = color
+    
+    def explain(color, model):
+        print(f"This is a {color} benz {model}")
+
+c1 = Cars("dd","blue")
+c1.explain("bclass")

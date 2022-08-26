@@ -40,6 +40,11 @@ class Catholic(Christian):
 cat1 = Catholic("Jesus","Church")
 cat1.k()
 
+class Anglican(Christian):
+    pass
+
+cat2 = Anglican("Jesus","Church")
+print(cat2.king)
 
 
 

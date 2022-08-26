@@ -28,3 +28,15 @@ class Christian:
         
 Ch1 = Christian("Kampala")
 print(Ch1.city)
+
+class Human:
+    def __init__ (self, name, age):
+        self.name = name
+        self.age = age
+
+    def age():
+        print("One's age. ")
+
+h1 = Human("Peter",23)
+print(h1.name)
+print(h1.age)

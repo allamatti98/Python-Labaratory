@@ -26,6 +26,19 @@ C1 = Cars.chairs()
 C2 = Toyota.chairs
 C3 = Benz.elegance()
 
+class Christian:
+    def __init__ (self, king, house):
+        self.king = king
+        self.house = house
+    
+    def k(self):
+        print("Cool cool")
+    
+class Catholic(Christian):
+    pass
+
+cat1 = Catholic("Jesus","Church")
+cat1.k()
 
 
 
